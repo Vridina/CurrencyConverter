@@ -6,11 +6,11 @@ public class MainController {
 
 
     public void execute(String command, String[] parameters) {
-        try {
-
-        } catch (AppException e) {
-            throw new RuntimeException("Ошика приложения");
-        }
+//        try {
+//
+//        } catch (AppException e) {
+//            throw new RuntimeException("Ошика приложения");
+//        }
 
 
     }
