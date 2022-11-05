@@ -32,7 +32,7 @@ public class Swing extends JFrame {
     }
 
     private void initView() {
-        this.add(mainPanel);
+         this.add(mainPanel);
         setSize(300, 200);
         setTitle("Exchanger");
         setLocationRelativeTo(null);
