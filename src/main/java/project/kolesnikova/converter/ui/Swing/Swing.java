@@ -6,11 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.net.URL;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.concurrent.Exchanger;
 
 public class Swing extends JFrame {
 
@@ -41,6 +37,7 @@ public class Swing extends JFrame {
         setTitle("Exchanger");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+
         setVisible(true);
     }
 
@@ -57,7 +54,7 @@ public class Swing extends JFrame {
         exchangeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.printf("Кнопка нажата ");
+//                System.out.printf("Кнопка нажата ");
             }
         });
     }
